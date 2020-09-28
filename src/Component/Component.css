@@ -1,0 +1,47 @@
+/*home certified section*/
+.certified {
+    padding: 20px 0 25px;
+}
+.certified ul{
+    margin-left: -8px;
+}
+.aboutpage .certified ul{
+    margin: 0 auto;
+}
+.certified ul li{
+    display: inline-block;
+       width: 100px;
+    height: 106px;
+    margin-right: 25px;
+}
+.certified ul li:last-child
+{
+    margin-right: 0;
+}
+.certified ul li img{
+    object-fit: contain;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.certified ul li.cert_iso{
+    width: 113px;
+}
+.certified ul li.cert_msm{
+    width: 87px;
+}
+.certified ul li.cert_del{
+    width: 85px;
+}
+.certified ul li.cert_app{
+    width: 135px;
+}
+.certified ul li.cert_rev{
+    width: 98px;
+}
+.certified ul {
+    margin-left: -8px;
+    padding-left: 0;
+    margin-bottom: 0;
+}

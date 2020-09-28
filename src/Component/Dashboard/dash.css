@@ -1,0 +1,37 @@
+.SplitPane-left, .SplitPane-right{
+    display: inline-block;
+}
+.SplitPane-left{
+    width:25%;
+    padding:60px 30px;
+    background-color: #e9fffb;
+}
+.SplitPane-right{
+    width:75%;
+    padding:0 20px;
+}
+.SplitPane-left ul li a{
+    color:#000;
+}
+.SplitPane{
+    width: 100%;
+    display: inline-flex;
+    background-color: #eaf3f1;
+    height: 100vh;
+}
+.inlinediv{
+    margin: 15px 0;
+    width: 100%;
+}
+.inlinediv, .inlinediv h2{
+    display: inline-block;
+}
+.inlinediv a{
+    float: right;
+}
+.AppDash table{
+    background-color: #fff;
+}
+.dashbody{
+    background:#000;
+}

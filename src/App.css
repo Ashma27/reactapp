@@ -1,12 +1,32 @@
 .App {
-  text-align: center;
+  margin-top: 75px;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.App .navbar{
+  background: #fff;
+}
+.sticky .navbar{
+  box-shadow: 0 0 100px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 0 100px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 0 100px 0 rgba(0,0,0,0.15);
+}
+.main .paddingRight{
+  padding-right: 10%;
+}
+.App .navbar-brand {
+  width: 150px;
+}
+.App .navbar-brand img{
+  display: block;
+  width: 100%;
+}
+.App .navbar-nav .active>.nav-link, .App .navbar-nav .nav-link{
+color:#000;
+font-size:16px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

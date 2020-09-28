@@ -1,0 +1,23 @@
+.slider .carousel-item{
+height:600px;
+}
+.carousel-caption{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.carousel-caption div{
+    width: 100%;
+}
+/* feature blog */
+.fblog{
+    text-align: center;
+    padding: 60px 0;
+}
+.fblog h2{
+    padding-bottom: 15px;
+}
